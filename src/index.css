@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #eff0f3;
+}
+
+/* disable scrolling when modal is open */
+.stop-scrolling {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.none {
+  visibility: hidden;
+}
+
+.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+.lastSlide {
+  transform: translateX(-100%);
+}
+.nextSlide {
+  transform: translateX(100%);
+}
