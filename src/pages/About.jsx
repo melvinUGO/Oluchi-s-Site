@@ -17,7 +17,7 @@ const About = () => {
             >
               Lagos
             </a>
-            .Alumna of{" "}
+            . Alumna of{" "}
             <a
               className="text-[#ff8e3c]"
               href="https://en.wikipedia.org/wiki/Imo_State_University"
@@ -35,7 +35,7 @@ const About = () => {
             </a>
           </p>
           <p className="py-2">
-            Intrigued by design, traveling, photography, strategy, art,fabulous
+            Intrigued by design, traveling, photography, strategy, art, fabulous
             food, and even better conversations.
           </p>
           <p className="py-2">
